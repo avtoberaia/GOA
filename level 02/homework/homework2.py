@@ -1,0 +1,1 @@
+print("luka and gabriel")

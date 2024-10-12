@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>T-shirt Color Selector</title>
+    <style>
+        select {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #fff;
+            color: #333;
+            font-size: 16px;
+        }
+
+        option {
+            color: #333;
+        }
+
+        option:first-child {
+            color: #999;
+        }
+
+        option:hover {
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <label for="t-shirt-color">Choose the color of the t-shirt:</label>
+    <select id="t-shirt-color" name="t-shirt-color">
+        <option value="none" selected disabled>---Select a color---</option>
+        <option value="red">Red t-shirt</option>
+        <option value="blue">Blue t-shirt</option>
+        <option value="orange">Orange t-shirt</option>
+        <option value="green">Green t-shirt</option>
+        <option value="grey">Grey t-shirt</option>
+        <option value="pink">Pink t-shirt</option>
+    </select>
+</body>
+</html>
